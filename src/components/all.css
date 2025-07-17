@@ -1,0 +1,80 @@
+.pagination-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  position: relative;
+}
+
+.logo-navigation {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 0;
+}
+
+.pagination-nav {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  top: -15px;
+  margin-top: 0;
+}
+
+.pagination-nav .page-number {
+  cursor: pointer;
+  color: #4285f4;
+  font-size: 1rem;
+  user-select: none;
+  position: relative;
+  z-index: 1;
+}
+
+.pagination-nav .page-number.active {
+  font-weight: bold;
+  background-color: transparent;
+  color: #1a73e8;
+}
+
+.arrow {
+  cursor: pointer;
+  color: #4285f4;
+  font-size: 1rem;
+  user-select: none;
+}
+
+.arrow.disabled {
+  pointer-events: none;
+  color: #999;
+}
+
+.custom-logo-container {
+  margin: 0 5px;
+  position: relative;
+}
+
+.custom-logo-container .search-logo {
+  transform: scale(1);
+  margin-bottom: -10px;
+}
+
+.custom-logo-container .logo-text h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+  .custom-logo-container .logo-text h1 {
+    font-size: 2rem;
+  }
+
+  .logo-navigation {
+    gap: 10px;
+  }
+
+  .pagination-nav {
+    top: -10px;
+  }
+}
