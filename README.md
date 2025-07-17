@@ -8,7 +8,8 @@ meus trabalhos, experiências e habilidades de forma intuitiva e moderna.
 
 ## 🔎 Prévia Online
 
-Acesse aqui: [https://seu-link.vercel.app](https://seu-link.vercel.app)
+Acesse aqui:
+[https://devitor-portfolio.vercel.app/](https://devitor-portfolio.vercel.app/)
 
 <br/>
 
