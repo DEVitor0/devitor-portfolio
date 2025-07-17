@@ -34,8 +34,8 @@
     "prettier": "^3.6.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "build-localhost": "PUBLIC_URL=/ react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
