@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  width: 100%;
+}
+
+.all-results-container {
+  margin-left: 180px;
+  max-width: 650px;
+  margin-bottom: 20px;
+  min-height: 55vh;
+}
+
+@media screen and (max-width: 768px) {
+  .all-results-container {
+    margin-left: 0px;
+  }
+
+  .filter-menu-items {
+    margin-left: 0;
+  }
+
+  .filter-menu-item .icon {
+    display: none;
+  }
+  body {
+    overflow-x: hidden;
+  }
+}
