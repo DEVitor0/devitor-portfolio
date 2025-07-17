@@ -56,7 +56,7 @@ const ProfileMenuDrop = () => {
           <p className="detail-text"> Vitor Moreira </p>
           <p className="detail-text"> devitormoreira@gmail.com </p>
         </div>
-        <Link className="second-detail" to="/about">
+        <Link className="second-detail" to="/sobre">
           <FontAwesomeIcon className="fa-user-plus" icon={faUserPlus} />
           <p> Mais sobre mim </p>
         </Link>
