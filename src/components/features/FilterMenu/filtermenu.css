@@ -33,9 +33,4 @@
   .filter-menu-item .icon {
     display: none;
   }
-
-  .filter-menu-item.item-active {
-    color: black;
-    border-bottom: 3px solid black;
-  }
 }

@@ -1,4 +1,5 @@
 .result-count {
+  margin: 20px 0 10px;
   font-size: 14px;
   color: #666;
 }
@@ -21,7 +22,6 @@
   margin-bottom: 0;
   width: 100%;
   white-space: nowrap;
-  overflow: hidden;
   text-overflow: ellipsis;
   font-weight: normal;
   display: inline-block;
@@ -103,16 +103,11 @@
     margin-left: 0;
     max-width: 100%;
   }
-  .all-container,
-  .results-content {
-    background: #eee;
-  }
 
   .result-card {
     background: #fff;
     padding: 2px 20px;
     margin: 8px 0;
-    border-bottom: 1px solid #ddd;
   }
 
   .excerpt {

@@ -22,7 +22,4 @@ body {
   .filter-menu-item .icon {
     display: none;
   }
-  body {
-    overflow-x: hidden;
-  }
 }

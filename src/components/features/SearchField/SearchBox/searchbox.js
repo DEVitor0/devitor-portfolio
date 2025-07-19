@@ -52,7 +52,6 @@ const SearchBox = (props) => {
       document.querySelector('.mobile-search-box').style.display = 'block';
       document.querySelector('.search-select').style.display = 'none';
       document.querySelector('body').style.height = '100vh';
-      document.querySelector('body').style.overflow = 'hidden';
       document.querySelector('.mobile-search-input').focus();
     }
   }
@@ -225,7 +224,7 @@ const SearchBox = (props) => {
                   <input
                     className="search-btn sw"
                     type="button"
-                    value="Search Website"
+                    value="Pesquisar um Website"
                     onClick={searchWebsite}
                   />
                   <input

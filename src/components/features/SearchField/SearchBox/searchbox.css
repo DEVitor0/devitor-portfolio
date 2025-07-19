@@ -69,9 +69,11 @@
   height: 11px;
 }
 
-/**
-* Input
-*/
+.sw {
+  margin-right: 20px;
+  margin-left: -15px;
+}
+
 .search-input {
   display: block;
   height: 46px;

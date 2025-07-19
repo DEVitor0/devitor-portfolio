@@ -78,7 +78,6 @@ const TopSearchBox = () => {
 
       /* Hide body */
       document.querySelector('body').style.height = '100vh';
-      document.querySelector('body').style.overflow = 'hidden';
 
       /* Focus on input */
       document.querySelector('.mobile-search-input').focus();
