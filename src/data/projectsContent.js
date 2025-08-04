@@ -2,8 +2,17 @@ import projectOne from '../assets/images/projects/dashboard.png';
 import projectTwo from '../assets/images/projects/AnEcccomerceAboutPlants.png';
 import projectThree from '../assets/images/projects/ContactsPage.png';
 import projectFour from '../assets/images/projects/automotive-workshop.jpeg';
+import projectFive from '../assets/images/projects/certified-api.png';
 
 export const ProjectsContent = [
+  {
+    link: 'https://github.com/DEVitor0/api-assinatura-digital',
+    img: projectFive,
+    name: 'Plataforma de assinaturas digitais',
+    excerpt:
+      'Este projeto é uma plataforma de assinatura digital, desenvolvida com arquitetura de microserviços para atender a demandas reais de segurança, rastreabilidade e escalabilidade.',
+    tools: 'TypeScript, Express, MongoDB, Redis, RabbitMQ, Kubernetes',
+  },
   {
     link: 'https://github.com/DEVitor0/iceCream-Sorveteria',
     img: projectOne,

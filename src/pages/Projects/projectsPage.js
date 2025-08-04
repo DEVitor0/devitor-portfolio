@@ -4,15 +4,19 @@ import './projectsPage.css';
 import Header from '../../components/layout/Header/header';
 import Footer from '../../components/layout/Footer/footer';
 import FilterMenu from '../../components/features/FilterMenu/filtermenu';
+import useRenderTime from '../../components/features/GetTimeToRender/GetTimeToRender';
 
 const ProjectsPage = ({ results }) => {
+  const renderTime = useRenderTime();
+
   return (
     <div className="main">
       <Header />
       <FilterMenu />
       <div className="all-results-container">
         <p className="result-count">
-          About {ProjectsContent.length} results (0.84 seconds)
+          {ProjectsContent.length} resultados encontrados em (
+          {renderTime ? `${renderTime}s` : '...'})
         </p>
         <div className="projects-content">
           {ProjectsContent.map((item) => (

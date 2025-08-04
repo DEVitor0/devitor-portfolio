@@ -3,12 +3,14 @@ import articleTwo from '../assets/images/blogImages/blogContent-article2.jpeg';
 import articleThree from '../assets/images/blogImages/blogContent-article3.jpeg';
 import articleFour from '../assets/images/blogImages/blogContent-article4.jpeg';
 import articleFive from '../assets/images/blogImages/blogContent-article5.png';
+import articleSix from '../assets/images/blogImages/blogContent-article6.png';
 
 import jsIcon from '../assets/icons/js-icon.png';
 import mongoDBIcon from '../assets/icons/mongodb-icon.svg';
 import dockerIcon from '../assets/icons/docker.svg';
 import googleCloud from '../assets/icons/google-cloud.png';
 import awsIcon from '../assets/icons/aws-icon.webp';
+import swagger from '../assets/icons/Swagger-logo.png';
 
 function daysSinceCreation(creationDate) {
   const today = new Date();
@@ -34,6 +36,15 @@ function daysSinceCreation(creationDate) {
 }
 
 export const BlogContent = [
+  {
+    link: 'https://www.linkedin.com/posts/vitor-moreira-960698303_sua-api-pode-ficar-mais-protegida-activity-7350974680503144449-cKNT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE2FjFgBEaPAoF8bvDpXX4tDiCQf7F69jxY',
+    img: articleSix,
+    icon: swagger,
+    name: '📚🧠 Economize seu tempo utilizando o Swagger UI para documentar.',
+    excerpt: `Documentação técnica não precisa ser difícil, demorada ou feita à mão. O Swagger permite com que você transforme a sua API em uma interface interativa, acessível no navegador e pronta para testes. Tudo de forma padronizada e automática.`,
+    category: 'Documentação',
+    date: daysSinceCreation('2025-07-27'),
+  },
   {
     link: 'https://www.linkedin.com/posts/vitor-moreira-960698303_sua-api-pode-ficar-mais-protegida-activity-7350974680503144449-cKNT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE2FjFgBEaPAoF8bvDpXX4tDiCQf7F69jxY',
     img: articleFive,
