@@ -27,7 +27,7 @@ export const Content = [
     category: 'Sobre',
     link: `${window.location.origin}/Sobre/qualificações`,
     name: 'Certificações Profissionais',
-    excerpt: `Certificado pela MongoDB (Advanced Schema Design Patterns, Query Optimization Techniques, Securing MongoDB Atlas), IBM (Docker Essentials), GitLab (CI/CD Fundamentals), Postman (API Fundamentals), AWS (AWS Academy Cloud Foundations) e Cisco Networking Academy (Networking Basics)`,
+    excerpt: `Certificado pela MongoDB (Advanced Schema Design Patterns, Query Optimization Techniques, Securing MongoDB Atlas), IBM (Docker Essentials, Web Development Fundamentals), GitLab (CI/CD Fundamentals), Postman (API Fundamentals), AWS (AWS Academy Cloud Foundations), Cisco Networking Academy (Networking Basics), The Linux Foundation (Introduction to Node.js), e Google Cloud Skills Boost (Data, ML, and AI in Google Cloud, Implementing Cloud Load Balancing for Compute Engine, Cloud Computing Fundamentals, Infrastructure in Google Cloud, Networking & Security in Google Cloud).`,
   },
   {
     category: 'Sobre',
